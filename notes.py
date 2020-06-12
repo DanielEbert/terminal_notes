@@ -34,6 +34,8 @@ def main():
       git_pull()
     elif args[0] == 'l' or args[0] == 'list':
       subprocess.check_call(['ls', git_dir])
+    elif args[0] == 'b' or args[0] == 'backup':
+      git_push()
     else:
       maybe_file = os.path.join(git_dir, args[0])
       if os.path.isfile(maybe_file):
@@ -44,8 +46,6 @@ def main():
   elif len(args) == 2:
     if args[0] == 'init':
       init(args[1])
-    elif args[0] == 'b' or args[0] == 'backup':
-      git_push()
     elif args[0] == 'e' or args[0] == 'edit':
       # edit file in vim
       filename = os.path.join(git_dir, args[1])
