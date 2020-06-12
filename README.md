@@ -26,6 +26,10 @@ Opens NOTENAME in your editor of choice (configured in notes.py, default: vim).
 
 List all NOTENAMEs.
 
+### `n g PATTERN` or `n grep PATTERN`
+
+Search for PATTERN in all node contents. Prints the matches.
+
 ### `n rm NOTENAME`
 
 Delete NOTENAME.
