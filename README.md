@@ -18,7 +18,7 @@ Writes CONTENT to a note called NOTENAME. If notename exists already, NOTE is ap
 
 Print NOTENAME content
 
-### `n e NOTENAME`
+### `n e NOTENAME` or `n edit NOTENAME`
 
 Opens NOTENAME in your editor of choice (configured in notes.py, default: vim).
 
