@@ -12,7 +12,7 @@ Run `n init GIT_URL` where GIT\_URL is a git repository URL. Notes are backed up
 
 ### `n NOTENAME CONTENT`
 
-Writes CONTENT to a note called NOTENAME. If notename exists already, NOTE is appended to NOTENAME.
+Writes CONTENT to a note called NOTENAME. If NOTENAME exists already, NOTE is appended to NOTENAME.
 
 ### `n NOTENAME`
 
