@@ -6,6 +6,10 @@ function notes () { /home/user/notes/notes.py $* }
 alias n='noglob notes'
 ```
 
+```
+pip install python-editor
+```
+
 Run `n init GIT_URL` where GIT\_URL is a git repository URL. Notes are backed up there. Can be a private repository.
 
 ## How do I use it?
