@@ -58,6 +58,7 @@ def main():
       else:
         os.remove(filename)
         git_push()
+  # doesnt write if note contains only 1 world. should be fine
   elif len(args) > 2:
     filename = os.path.join(git_dir, args[0])
     content = ' '.join(args[1:])
